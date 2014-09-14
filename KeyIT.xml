@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<Forms>
+    <Form Class="Window" LAnchorPoint="0.81544" LAnchorOffset="-914" TAnchorPoint="1.00000" TAnchorOffset="-281" RAnchorPoint="0.90101" RAnchorOffset="-998" BAnchorPoint="1.07072" BAnchorOffset="-287" RelativeToClient="1" Font="Default" Text="" Template="HologramControl1" Name="KeyITForm" Border="0" Picture="0" SwallowMouseClicks="1" Moveable="1" Escapable="0" Overlapped="0" BGColor="ffffffff" TextColor="ffffffff" TextId="" TooltipColor="" Tooltip="">
+        <Control Class="Button" Base="CRB_CharacterCreateSprites:btnCharS_ZoomPortrait" Font="CRB_InterfaceMedium" ButtonType="PushButton" RadioGroup="" LAnchorPoint="1" LAnchorOffset="-46" TAnchorPoint="1" TAnchorOffset="-49" RAnchorPoint="1" RAnchorOffset="-3" BAnchorPoint="1" BAnchorOffset="-7" DT_VCENTER="1" DT_CENTER="1" Name="OkButton" BGColor="ffffffff" TextColor="ffffffff" NewControlDepth="2" WindowSoundTemplate="TogglePhys02" TextId="" Text="" TooltipColor="" NormalTextColor="ffffffff" PressedTextColor="ffffffff" FlybyTextColor="ffffffff" PressedFlybyTextColor="ffffffff" DisabledTextColor="ffffffff" Tooltip="">
+            <Event Name="ButtonSignal" Function="OnOK"/>
+        </Control>
+    </Form>
+</Forms>

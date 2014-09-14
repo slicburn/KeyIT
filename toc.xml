@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Addon Author="" APIVersion="9" Name="KeyIT" Description="Quick Combat options / keybinding / Ability change">
+    <Script Name="KeyIT.lua"/>
+    <Form Name="KeyIT.xml"/>
+</Addon>
