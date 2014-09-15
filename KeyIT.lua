@@ -191,6 +191,9 @@ Sound.Play(126)
 			Apollo.SetConsoleVariable("player.disableFacingLock", false) -- pve lock target 
 			Apollo.SetConsoleVariable("player.ignoreAlwaysFaceTarget", false) -- pve auto face target 
 			Apollo.SetConsoleVariable("spell.autoSelectCharacter", true) -- auto self-cast
+			Apollo.SetConsoleVariable("video.exclusive", false) -- video window 
+			Apollo.SetConsoleVariable("video.fullscreen", false) -- full screen window
+						
 			local bCompleted = GameLib.SetCurrInputKeySet(self.eCurrKeySet) -- SetCurrInputKeySet return FALSE if still need to wait for server to send client the keybindings
 			
 			-- debug
@@ -207,7 +210,9 @@ Sound.Play(126)
 			Apollo.SetConsoleVariable("spell.disableAutoTargeting", true) -- disable auto target
 			Apollo.SetConsoleVariable("player.disableFacingLock", true)   -- pve lock target
 			Apollo.SetConsoleVariable("player.ignoreAlwaysFaceTarget", true) -- auto face target 
-			Apollo.SetConsoleVariable("spell.autoSelectCharacter", false) -- auto self-cast                                                         
+			Apollo.SetConsoleVariable("spell.autoSelectCharacter", false) -- auto self-cast     
+			Apollo.SetConsoleVariable("video.exclusive", false) -- video window 
+			Apollo.SetConsoleVariable("video.fullscreen", true) -- full screen window                                                    
 			local bCompleted = GameLib.SetCurrInputKeySet(self.eCurrKeySet) -- SetCurrInputKeySet return FALSE if still need to wait for server to send client the keybindings
 			
 			-- debug
