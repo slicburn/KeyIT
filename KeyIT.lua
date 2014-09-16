@@ -193,7 +193,7 @@ Sound.Play(126)
 			Apollo.SetConsoleVariable("spell.autoSelectCharacter", true) -- auto self-cast
 			Apollo.SetConsoleVariable("video.exclusive", false) -- video window 
 			Apollo.SetConsoleVariable("video.fullscreen", false) -- full screen window
-						
+			Apollo.SetConsoleVariable("player.moveToTargetOnSelfAOE", true) -- move to target
 			local bCompleted = GameLib.SetCurrInputKeySet(self.eCurrKeySet) -- SetCurrInputKeySet return FALSE if still need to wait for server to send client the keybindings
 			
 			-- debug
@@ -212,7 +212,8 @@ Sound.Play(126)
 			Apollo.SetConsoleVariable("player.ignoreAlwaysFaceTarget", true) -- auto face target 
 			Apollo.SetConsoleVariable("spell.autoSelectCharacter", false) -- auto self-cast     
 			Apollo.SetConsoleVariable("video.exclusive", false) -- video window 
-			Apollo.SetConsoleVariable("video.fullscreen", true) -- full screen window                                                    
+			Apollo.SetConsoleVariable("video.fullscreen", true) -- full screen window 
+			Apollo.SetConsoleVariable("player.moveToTargetOnSelfAOE", false) -- move to target                                                   
 			local bCompleted = GameLib.SetCurrInputKeySet(self.eCurrKeySet) -- SetCurrInputKeySet return FALSE if still need to wait for server to send client the keybindings
 			
 			-- debug
